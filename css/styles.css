@@ -13,10 +13,15 @@ body{
   margin:0;
   padding:0;
 }
+.col-lg-3{
+  margin:-1vh 0 -1vh 0;
+  padding:0;
+}
 
 /*top & bottom margin*/
 .margin{
   height:40vw;
+  text-align:center;
 }
 @media(min-height:200vw){
   .margin{
@@ -55,16 +60,24 @@ body{
 .circle{
   background-color:white;
   border-radius:50%;
+  text-align:center;
+}
+.front{
   height:60vh;
   left:10vw;
   position:fixed;
-  text-align:center;
   top:20vh;
   width:80vw;
   z-index:1;
 }
+.members{
+  font-size:8vh;
+  padding-bottom:2vh;
+  padding-top:2vh;
+  width:100%;
+}
 @media(min-width:768px){
-  .circle{
+  .front{
     left:20vw;
     top:20vh;
     width:60vw;
