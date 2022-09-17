@@ -25,7 +25,7 @@ body{
 }
 @media(min-height:200vw){
   .margin{
-    height:60vw;
+    height:65vw;
   }
 }
 @media(max-height:100vw){
