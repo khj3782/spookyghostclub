@@ -20,7 +20,7 @@ body{
 
 /*top & bottom margin*/
 .margin{
-  height:45vw;
+  height:50vw;
   text-align:center;
 }
 @media(min-height:200vw){
@@ -87,7 +87,7 @@ body{
 /*top and bottom label*/
 .line{
   background-color:white;
-  font-size:8vw;
+  font-size:6vw;
   font-weight:bold;
   position:fixed;
   width:100%;
