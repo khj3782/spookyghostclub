@@ -45,7 +45,7 @@ body{
 .text-right{
   text-align:right;
 }
-@media(min-width:100vh){
+@media(max-height:100vw){
   .text-group{
     font-size:18vh;
     margin-left:20vw;
@@ -87,7 +87,7 @@ body{
 /*top and bottom label*/
 .line{
   background-color:white;
-  font-size:4vh;
+  font-size:8vw;
   font-weight:bold;
   position:fixed;
   width:100%;
@@ -97,4 +97,9 @@ body{
 }
 .bottom{
   bottom:0;
+}
+@media(max-height:100vw){
+  .line{
+    font-size:4vh;
+  }
 }
