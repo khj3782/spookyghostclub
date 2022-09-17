@@ -1,26 +1,87 @@
 body{
+  background-color:black;
   font-family: 'Nanum Myeongjo', serif;
   margin:0;
 }
-a{
-  color:white;
-  font-size:1.5rem;
+
+/*bootstrap override*/
+.container-fluid{
+  margin:0;
+  padding:0;
+}
+.row{
+  margin:0;
+  padding:0;
 }
 
-.logo{
-  text-align: center;
+/*top & bottom margin*/
+.margin{
+  height:40vw;
 }
-.club{
+@media(min-height:200vw){
+  .margin{
+    height:60vw;
+  }
+}
+@media(max-height:100vw){
+  .margin{
+    height:25vh;
+  }
+}
+
+/*front text*/
+.text-group{
+  color:white;
+  font-size:25vw;
+}
+.text{
+  margin-top:-5vh;
+}
+.text-right{
+  text-align:right;
+}
+@media(min-width:100vh){
+  .text-group{
+    font-size:18vh;
+    margin-left:20vw;
+    width:60vw;
+  }
+  .text{
+    margin-top:-10vh;
+  }
+}
+
+/*circle menu*/
+.circle{
+  background-color:white;
+  border-radius:50%;
+  height:60vh;
+  left:10vw;
+  position:fixed;
+  text-align:center;
+  top:20vh;
+  width:80vw;
+  z-index:1;
+}
+@media(min-width:768px){
+  .circle{
+    left:20vw;
+    top:20vh;
+    width:60vw;
+  }
+}
+
+/*top and bottom label*/
+.line{
+  background-color:white;
+  font-size:4vh;
+  font-weight:bold;
+  position:fixed;
   width:100%;
 }
-.menu{
-  text-align:center;
+.top{
+  top:0;
 }
-.menu-name{
-  background-color:black;
-  border:1px solid white;
-  padding:2rem;
-}
-.bottom-margin{
-  height:10vh;
+.bottom{
+  bottom:0;
 }
