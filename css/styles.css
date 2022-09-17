@@ -20,7 +20,7 @@ body{
 
 /*top & bottom margin*/
 .margin{
-  height:40vw;
+  height:45vw;
   text-align:center;
 }
 @media(min-height:200vw){
