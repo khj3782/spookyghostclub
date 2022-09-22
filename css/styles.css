@@ -3,6 +3,9 @@ body{
   font-family: 'Nanum Myeongjo', serif;
   margin:0;
 }
+a{
+  text-decoration:none;
+}
 
 /*bootstrap override*/
 .container-fluid{
@@ -60,7 +63,13 @@ body{
 .circle{
   background-color:white;
   border-radius:50%;
+  color:black;
+  padding:10px;
   text-align:center;
+}
+.circle:hover{
+  background-color:black;
+  color:white;
 }
 .front{
   height:60vh;
@@ -104,5 +113,66 @@ body{
 @media(max-height:100vw){
   .line{
     font-size:4vh;
+  }
+}
+
+/*pagenation for members*/
+.pagenation{
+  color:white;
+  margin-top:40px;
+  padding:10px;
+  text-align:center;
+}
+.text-button{
+  color:gray;
+  font-size:18px;
+  vertical-align: middle;
+}
+.block{
+  border:1.5px solid gray;
+  border-radius:30%;
+  margin:0 5px 0 5px;
+  padding:5px 10px 5px 10px;
+}
+.active{
+  color:white;
+}
+
+/*profile*/
+.profile{
+  font-size:18px;
+  margin-top:10px;
+  text-align:center;
+  word-break:keep-all;
+}
+.image{
+  margin:20px 0 40px 0;
+  width:280px;
+}
+.name{
+  font-size:36px;
+  margin-bottom:20px;
+}
+@media(max-width:300px){
+  .profile{
+    font-size:3vh;
+  }
+  .image{
+    width:100%;
+  }
+  .name{
+    font-size:6vh;
+  }
+}
+.profile-text{
+  color:white;
+  margin:10px 0 20px 0;
+  padding:10px;
+  text-align:left;
+  vertical-align: middle;
+}
+@media(min-width:768px){
+  .profile-text{
+    padding:10px 30px 10px 10px;
   }
 }
